@@ -1,7 +1,7 @@
 body {
 	margin: 2%;
 	border: 1px solid black;
-	background-color: white;
+	background-color: grey;
 }
 
 #image {
@@ -23,11 +23,11 @@ body {
 .preview {
 	width: 10%;
 	margin-left: 17%;
-    border: 5px solid black;
+    border: 10px solid black;
 }
 
 .preview:hover, .preview:focus {
-    border: 10px solid grey;
+    border: 10px solid white;
     cursor: pointer;
 }
 

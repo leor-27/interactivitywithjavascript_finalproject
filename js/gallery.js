@@ -10,9 +10,9 @@ function unDo() {
 }
 
 function addTabFocus() {
-    console.log();
     img = document.querySelectorAll('.preview');
     for (let i = 0; i < img.length; i++) {
         img[i].setAttribute('tabindex', '0');
     }
+    console.log(img);
 }
