@@ -9,9 +9,9 @@ function unDo() {
     document.getElementById("image").innerHTML = "Hover over an image below to display here.";	
 }
 
-function tabFocus() {
-    img = document.querySelectorAll(".caption preview");
+function addTabFocus() {
+    img = document.querySelectorAll('.preview');
     for (let i = 0; i < img.length; i++) {
-        img[i].setAttribute("tabindex", "0");
+        img[i].setAttribute('tabindex', '0');
     }
 }
