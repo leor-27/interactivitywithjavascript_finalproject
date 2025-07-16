@@ -9,7 +9,7 @@ function unDo() {
     document.getElementById("image").innerHTML = "Hover or focus over an image below to display here.";	
 }
 
-function addTabFocus() {
+function tabFocus() {
     img = document.querySelectorAll('.preview');
     for (let i = 0; i < img.length; i++) {
         img[i].setAttribute('tabindex', '0');
