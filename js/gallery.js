@@ -6,10 +6,11 @@ function upDate(previewPic) {
 
 function unDo() {
     document.getElementById("image").style.backgroundImage = "url('')";
-    document.getElementById("image").innerHTML = "Hover over an image below to display here.";	
+    document.getElementById("image").innerHTML = "Hover or focus over an image below to display here.";	
 }
 
 function addTabFocus() {
+    console.log();
     img = document.querySelectorAll('.preview');
     for (let i = 0; i < img.length; i++) {
         img[i].setAttribute('tabindex', '0');
